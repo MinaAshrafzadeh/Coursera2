@@ -1,0 +1,65 @@
+body {
+	font-family: 'Oxygen', sans-serif;
+	margin: 0;
+}
+header {
+	background-color: gray;
+	padding: 20px 0 20px 5%;
+	border: 3px solid black;
+}
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+h3 {
+	text-align: center;
+}
+.box {
+	background-color: gray;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding: 1px 3% 5px 3%;
+}
+@media (min-width: 768px) {
+	.dropbtn {
+		display: none;
+	}
+}
+.dropbtn {
+	background-color: gray;
+	padding: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+
+}
+
+.dropbtn:hover {
+  background-color:lightgray;
+}
+
+.dropdown {
+  position: absolute;
+  top: 50px;
+  right: 3%;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+
+.dropdown-content a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  padding-top :20px;
+  border: 1px solid black;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
